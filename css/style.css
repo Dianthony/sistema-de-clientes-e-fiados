@@ -1,0 +1,213 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: lightgray;
+	font-family: ARIAL;
+}
+#header{
+	background-color: #28282b;
+	height: 3rem;
+	text-align: center;
+	z-index:1;
+}
+#header img{
+	width: 7rem;
+	margin-top: -2rem;
+}
+#menu{
+	background-color: #28282b;
+	height: 3rem;
+	text-align: right;
+	color: #fff; 
+	padding: 0.7rem;
+	z-index:1;
+}
+#menu a{
+	color: #fff;
+	text-decoration: none;
+}
+#menu a img{
+	margin-top: -0.2rem;
+	height: 0.9rem;
+}
+#menu b a{
+	border-bottom: solid 3px #FFC107;
+	color:#FFC107;
+}
+#header2{
+	background-color: #28282b;
+	color: #fff;
+	height: 3rem;
+	padding: 0.75rem;
+	text-align: center;
+	z-index:1;
+}
+#header2 span{
+	border: solid 1px #FFC107;
+	border-radius: 10px;
+	padding: 0.5rem;
+}
+#header2 img{
+	width: 1.5rem;
+	margin-top:-0.4rem;
+}
+#header2 button{
+	margin-top:-0.3rem;
+}
+#homebody{
+	background-color: transparent;
+	height: 100%;
+	width: 80%;
+	padding-top: 3rem;
+	border-right: 1px solid #b3b2b2;
+	border-left: 1px solid #b3b2b2;
+	text-align: center;
+}
+#homebody h1{
+	font-size: 30pt;
+}
+#homebody img{
+	margin-top: -8.5rem;
+	width: 60%;
+	z-index: 0;
+}
+#fiadobody{
+	background-color: transparent;
+	height:100%;
+	width: 80%;
+	padding-top: 3rem;
+	padding-bottom: 8rem;
+	border-right: 1px solid #b3b2b2;
+	border-left: 1px solid #b3b2b2;
+	text-align: center;
+}
+#fiadobody button{
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+#fiadobody button img{
+	width: 1.2rem;
+	margin-top: -2px;
+}
+#fiadobody table input[type=text]{
+	color: #FFC107;
+	background-color: transparent;
+	border: none;
+	width: 200px;
+	border-bottom: 2px solid #b3b2b2;
+	padding-left: 8px;
+	outline: none;
+}
+#fiadobody table input[type=text]:focus{
+	border-bottom: 2px solid #FFC107;
+	transition: 0.5s;
+}
+#vercontabody{
+	background-color: transparent;
+	height:100%;
+	width: 80%;
+	padding-top: 3rem;
+	padding-bottom: 8rem;
+	border-right: 1px solid #b3b2b2;
+	border-left: 1px solid #b3b2b2;
+	text-align: center;
+}
+#clientebody{
+	background-color: transparent;
+	height: 100%;
+	width: auto;
+	padding-top: 3rem;
+	padding-bottom: 8rem;
+	border-right: 1px solid #b3b2b2;
+	border-left: 1px solid #b3b2b2;
+}
+#baseboard{
+	background-color: transparent;
+	color:#000;
+	height: 5rem;
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-bottom: 0%;
+	border-top: 1px solid #b3b2b2;
+}
+#login, #formdebito{
+	background-color: rgba(0,0,0,75%);
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	align-items: center;
+}
+#login form, #formdebito form{
+	background-color: white;
+	width: 30%;
+	margin-top: 12%;
+	margin-bottom: 15%;
+	margin-left: 35%;
+	border-radius: 15px;
+	padding: 3%;
+	padding-left: 5%;
+	box-shadow: 2px 5px rgba(0,0,0,0.75);
+}
+#login form input, #formdebito form input{
+	width: 90%;
+	height: 35pt;
+	padding:5px;
+	outline-style: none;
+	border-radius: 5px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:solid #636363;
+}
+#login form input[type=submit], #formdebito form input[type=submit]{
+	background-color: green;
+	color: white;
+	width: 60%;
+	cursor: pointer;
+	margin-left: 15%;
+	border:transparent;
+}
+#login form input[type=submit]:hover, #formdebito form input[type=submit]:hover{
+	background-color: #005500;
+	color: white;
+	width: 60%;
+	cursor: pointer;
+	margin-left: 15%;
+	border:transparent;
+}
+#login form input:focus, #formdebito form input:focus{
+	border-bottom: solid;
+	border-color: darkblue;
+	transition: 0.5s;
+}
+#login form button, #formdebito form button{
+	margin-left:100%;
+	border:transparent;
+	width: 22px;
+	height: 22px;
+	border-radius: 5px;
+	background-color: red;
+	text-align: center;
+	font-size: 8pt;
+}
+#login form button a, #formdebito form button a{
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 5px;
+
+}
+button{
+	cursor: pointer;
+}
+#message{
+	background-color: pink;	
+	z-index: 1;
+	position: fixed;
+	margin-left: 42%;
+	margin-top: 1%;
+	padding: 10px;
+}
